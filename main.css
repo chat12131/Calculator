@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin-top: 30px;
+  background-color:gray;
+  color: white;
+  border: none;
+  height: 80px;
+  width: 90%;
+  margin:auto；
+}
+
+input:hover {
+  cursor: default;
+}
+
+input:focus {
+  outline: none;
+}
+
+.contener {
+  text-align: center;
+  max-width: 800px;
+  max-height: 600px;
+  margin:auto;
+  margin-top: 80px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+   border-radius: 10px;
+}
+
+.calculator {
+  display: grid;
+  grid-template-areas:
+  "a b c d"
+  "e f g h"
+  "i j k l"
+  "m n o p"
+  "q r o p";
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  font-size: 60px;
+  text-align: right;
+  padding: 5px;
+}
+
+button {
+  font-size: 50px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.a {
+  grid-area: a;
+}
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+.d {
+  grid-area: d;
+}
+.e {
+  grid-area: e;
+}
+.f {
+  grid-area: f;
+}
+.g {
+  grid-area: g;
+}
+.h {
+  grid-area: h;
+}
+.j {
+  grid-area: j;
+}
+.k {
+  grid-area: k;
+}
+.l {
+  grid-area: l;
+}
+.m {
+  grid-area: m;
+}
+.n {
+  grid-area: n;
+}
+.o {
+  grid-area: o;
+}
+.p {
+  grid-area: p;
+}
+.q {
+  grid-area: q;
+}
+.r {
+  grid-area: r;
+}
